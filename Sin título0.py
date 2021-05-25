@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+#Con aportes fundamentales del codigo de David Sierra Porta
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -11,7 +12,6 @@ calculator.calculate(latitude=4.22,longitude=-73.12,altitude=630)['field-value']
 
 import os
 import json
-import numpy as np
 
 SAMPLES = 1201  # Change this to 3601 for SRTM1
 HGTDIR = 'altura'  # All 'hgt' files will be kept here uncompressed
